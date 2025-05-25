@@ -1,0 +1,116 @@
+.uber {
+    background-color: black;
+    color: whitesmoke;
+    height:30px;
+    width: 92px;
+    border-style: none;
+    font-size: 60%;
+    margin-top: 4cm;
+    margin-left: 3cm;
+    vertical-align: top;
+  }
+  .uber:hover {
+    height: 30px;
+    width: 92px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 6, 6); }
+  
+  
+  .amazon {
+    margin-left: 3cm;
+    background-color: rgb(231, 231, 18);
+    border: none;
+    height: 28px;
+    width: 90px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 3cm;
+    vertical-align: top;
+  }
+  .amazon:hover{
+    background-color: rgb(236, 222, 33);
+  }
+  
+  .gitHub {
+    background-color: rgb(42, 144, 62);
+    margin-top: 6cm;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    height: 23px; 
+    width: 67px;
+    font-size: 10.5px;
+    vertical-align: top;
+    margin-bottom: 50px;
+    
+  }
+  .gitHub:hover{
+  background-color: rgb(17, 102, 17);
+  }
+  
+  .getStarted {
+    background-color: rgb(121, 82, 179);
+    margin-top: 3cm;
+    margin-left: 3cm;
+    margin-right: 0cm;
+    border: none;
+    border-radius: 2px;
+    color: whitesmoke;
+    height: 24px; 
+    width: 71px;
+    font-size: 9.5px;
+    vertical-align: top;
+  }
+  .getStarted:hover{
+  background-color: rgb(52, 59, 137);
+  }
+  
+  .download {
+    background-color: white;
+    margin-top: 3cm;
+    margin-left: 0cm;
+    margin-right: 2cm;
+    
+    border-radius: 2px;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    border-width: 0.6px;
+    height: 24px; 
+    width: 71px;
+    font-size: 9.2px;
+    font-weight: bold;
+  }
+  .download:hover{
+   background-color: rgb(244, 236, 236);
+  }
+  
+  .apply {
+          height: 36px;
+          width: 220px;
+          border-radius: 18px;
+          background-color: rgb(10, 102, 194);
+          border: none;
+          color: whitesmoke;
+          font-weight: bold;
+          font-size: 13px;
+          cursor: pointer;
+          margin-left: 0cm;
+          vertical-align: top;
+      }
+  
+      .save {
+          height: 32px;
+          width: 70px;
+          border-radius: 18px;
+          background-color: rgb(255, 255, 255);
+          border-color: rgb(10, 102, 194); ;
+          color: rgb(10, 102, 194);;
+          font-weight: bold;
+          font-size: 15px;
+          cursor: pointer;
+          border-width: 1.25px;
+          vertical-align: top;
+  
+      }   
+  
+  

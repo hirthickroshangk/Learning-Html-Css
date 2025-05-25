@@ -1,0 +1,127 @@
+.add-friend-box {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  white-space: nowrap;
+
+}
+.profile-photo {
+  height: 23px;
+  width: 23px;
+  border-radius: 15px;
+  margin-right: 5px;
+
+}
+
+.tick {
+  margin-bottom: 2px;
+}
+.name-box {
+  font-family: helvetica;
+  font-size: 13px;
+  display: inline;
+  margin: 0px;
+  margin-bottom: 2px;
+}
+button {
+  width: 75px;
+  height: 23px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+  font-family: helvetica;
+
+}
+.add-friend {
+  background-color: rgb(112, 112, 194);
+  
+}
+.message {
+  background-color: rgba(0, 0, 0,0.1);
+  color: black;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+ 
+}
+.left-section {
+  display: flex;
+  align-items: center;
+ 
+}
+body {
+  padding-bottom: 3000px;
+  background-color: aliceblue;
+}
+
+.discord-box {
+  margin-top: 70px;
+  position: fixed;
+  left: 0;
+  display: flex;
+
+}
+.discord-profile-photo {
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+.first-column {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0,0.84);
+  height: 280px;
+  width: 80px;
+  align-items: center;
+  padding: 3px;
+  padding-top: 18px ;
+}
+.second-column {
+  background-color: rgba(0, 0, 0,0.75); 
+  display: flex;
+  width: 190px;
+  flex-direction: column;
+  padding: 15px;
+  align-items: start;
+}
+.info {
+ display: inline;
+ margin-right: 125px;
+ color: white;
+ font-family: roboto,helvetica;
+ font-weight: 550;
+ font-size: 16px;
+}
+.plus {
+  display: inline;
+  color: rgb(167, 165, 165);
+  font-size: 30px;
+}
+.hash {
+  font-family: roboto,helvetica;
+  color: rgb(167, 165, 165);
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.space-para {
+  margin: 2px;
+}
+.right-section button {
+  width: 85px;
+}
+
+
+

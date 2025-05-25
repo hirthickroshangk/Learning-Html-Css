@@ -1,0 +1,117 @@
+.register {
+  display: block;
+  height: 20px;
+  width: 150px;
+  margin-right: 100%;
+}
+.surveyText {
+  width: 200px;
+  display: inline-block;
+
+  vertical-align: middle;
+}
+.yesNo {
+  vertical-align: middle;
+}
+
+.dummy {
+  margin-bottom: 100px;
+}
+
+.googleIcon {
+  width: 350px;
+  margin-left: 250px;
+  margin-right: 100%;
+}
+.googleSearch {
+  margin-left: 145px;
+  margin-top: 10px;
+  width: 550px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0.8px 0.8px 5px rgba(0, 0, 0, 0.3);
+  padding-left: 13px;
+}
+.googleSearch:focus {
+  outline: none;
+}
+.googleSearch::placeholder {
+  font-size: 15px;
+  color: rgb(130, 130, 130);
+}
+
+.name {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+.email {
+  margin-top: 7px;
+  display: block;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 300px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.signUpButton {
+  margin-top: 12px;
+  padding-left: 127px;
+  padding-right: 127px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 10px;
+  background-color: rgb(14, 96, 212);
+  color: white;
+  font-size: 15px;
+  font-family: Helvetica;
+  border: none;
+}
+
+.uber_title {
+  margin-top: 50px;
+  font-size: 33px;
+  font-family: helvetica;
+  margin-bottom: 16px;
+  margin-left: 2.5px;
+}
+.location {
+  display: block;
+  padding-right: 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+  width: 300px;
+  border: none;
+  background-color: whitesmoke;
+  margin-bottom: 7px;
+  padding-left: 14px;
+}
+
+.uberButton {
+  background-color: black;
+  color: whitesmoke;
+  height: 30px;
+  width: 92px;
+  border-style: none;
+  font-size: 60%;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.uberButton_2 {
+  background-color: whitesmoke;
+  color: rgb(0, 0, 0);
+  height: 30px;
+  width: 92px;
+  border-style: none;
+  font-size: 60%;
+}

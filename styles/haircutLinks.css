@@ -1,0 +1,48 @@
+
+.uber {
+  background-color: black;
+  color: whitesmoke;
+  height:30px;
+  width: 92px;
+  border-style: none;
+  font-size: 60%;
+}
+
+.uber:hover {
+  background-color: rgb(73, 6, 6); 
+}
+.getStarted {
+  background-color: rgb(121, 82, 179);
+  
+  border: none;
+  border-radius: 2px;
+  color: whitesmoke;
+  height: 30px; 
+  width: 92px;
+  font-size: 9.5px;
+
+}
+.getStarted:hover{
+background-color: rgb(52, 59, 137);
+}
+
+.gitHub {
+  background-color: rgb(42, 144, 62);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  height: 30px; 
+  width: 92px;
+  font-size: 10.5px;
+  
+}
+.gitHub:hover{
+background-color: rgb(17, 102, 17);
+}  
+
+
+
+
+
+
+

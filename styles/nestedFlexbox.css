@@ -1,0 +1,156 @@
+body {
+  padding-bottom: 1000px;
+}
+.flexbox {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.column-1 {
+  background-color: lightblue;
+  width: 100px;
+  height: 50px;
+}
+.column-2 {
+  background-color: chocolate;
+  height: 50px;
+  width: 250px;
+}
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.row-2-item {
+  background-color: beige;
+}
+
+.mailRow {
+  display: flex;
+  margin-top: 15px;
+}
+.profilePicture {
+  height: 50px;
+  width: px;
+  border-radius: 25px;
+}
+.upper-section {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.mail-info {
+  margin-left: 10px;
+}
+.subject {
+  margin-bottom: 5px;
+}
+.all-inboxes {
+  color: rgb(160, 159, 159);
+  font-family: helvetica;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.mailRow {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+.name {
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 14px;
+}
+.time {
+  color: rgb(160, 159, 159);
+  font-family: helvetica;
+  font-size: 13px;
+}
+.subject {
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 14px;
+}
+.mail-preview {
+  color: rgb(160, 159, 159);
+  font-family: helvetica;
+  font-size: 13px;
+}
+.container {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  width: 350px;
+}
+
+.container-2 {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  width: 370px;
+  height: 180px;
+  margin-top: 50px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.tweet-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+.tweet-info {
+  margin-left: 10px;
+}
+.profile-picture-2-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+p {
+  display: inline-block;
+  margin: 0px;
+  font-family: helvetica;
+}
+.name-2 {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.id {
+  color: rgb(113, 112, 112);
+  font-size: 13px;
+}
+.tweet {
+  font-size: 13px;
+}
+.tweet-attachment {
+  display: flex;
+  align-items: center;
+  box-shadow: 0.8px 0.8px 0.8px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgb(226, 224, 224);
+  border-radius: 15px;
+  margin-right: 12px;
+  margin-top: 7px;
+}
+.youtube-video-preview {
+  background-color: rgb(224, 222, 222);
+  height: 75px;
+  width: 85px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.url {
+  color: rgb(113, 112, 112);
+  font-size: 13px;
+}
+.video-name {
+  font-size: 13px;
+  margin-top: 4px;
+}
+.youtube-video-info {
+  width: 200px;
+  margin-left: 8px;
+}

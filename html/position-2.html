@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <title>absolute-relative</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+    .header {
+      background-color: black;
+      color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding-left: 300px;
+      height: 50px;
+      z-index: 100;
+    }
+    .sidebar {
+      background-color: burlywood;
+      position: fixed;
+      top: 50px;
+      bottom: 0px;
+      left: 0px;
+      width: 65px;
+    }
+    .div-1 {
+      height: 200px;
+      width: 250px;
+      background-color: lightgreen;
+      margin-left: 100px;
+      margin-top: 100px;
+    }
+    .div-2 {
+      height: 200px;
+      width: 250px;
+      background-color: lightblue;
+      margin-left: 100px;
+      margin-top: 050px;
+      position: relative;
+    }
+    .absolute {
+      background-color: darkred;
+      color: white;
+      margin-top: 20px;
+      width: 70px;
+      margin-left: 100px;
+      position: absolute;
+      bottom: 3px;
+      right: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">header</div>
+  <div class="sidebar">sidebar</div>
+  <div class="div-1">div 1</div>
+  <div class="div-2">
+    div 2
+    <div class="absolute">20:59</div>
+  </div>
+</body>

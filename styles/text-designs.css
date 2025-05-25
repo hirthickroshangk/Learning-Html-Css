@@ -1,0 +1,229 @@
+
+        
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-family: Arial;
+        
+        }
+        .title_video {
+            font-family: Arial;
+            font: size 18px;
+            font-weight: bold;
+            width: 280px;
+            line-height: 24px;
+            margin-bottom: 5px;
+        }
+        
+        .stats_video {
+            color: rgb(96, 96, 96);
+            font-size: 14px;
+            margin-top: 0;
+            font-family: Arial;
+            margin-bottom: 20px;
+        }
+        
+        .author_video {
+            color: rgb(96, 96, 96);
+            font-size: 14px;
+            margin-bottom: 20px;
+            
+        }
+        
+        .description_video {
+            width: 268px;
+            color: rgb(96, 96, 96);
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 70px;
+        }
+        
+        .apple_website {
+            color: white;
+            background-color: rgb(227, 65, 64);
+            padding-top: 18px;
+            padding-bottom: 18px;
+            text-align: center;
+            margin-bottom: 50px;
+            cursor: pointer;
+        }
+        .shopLink:hover {
+            text-decoration: underline;
+        }
+        
+        .tahoma {
+            font-family: Tahoma;
+            font-size: 22px;
+            margin-left: 200px;
+            font-weight: bold;
+        }
+        
+        .deal {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 35px;
+            margin-right: 0;
+        }
+        .deal_subpara {
+            position: relative;
+            top:25px;
+            right: 240px;
+            font-size: 18px;
+            font-weight: normal;
+            color: orangered;
+            font-style: italic;
+            margin-right: 0px;
+        
+            
+        }
+        .title_course {
+            margin-top: 70px;
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .subTitle_course {
+            color: grey;
+        }
+        .desc_course {
+            margin-top: 20px;    
+            width: 270px;
+        }
+        .button_course {
+            padding-top: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-bottom: 6px ;
+            color: white;
+            background-color: rgb(86, 118, 39);
+            border-radius: 5px;
+            margin-top: 15px;
+            border: none;
+            margin-bottom: 25px;
+        }
+        
+        .title_appleShopping {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        .subTitle_appleShopping {
+           margin-left: 42px;
+        }
+        .link_appleShopping {
+            display: block;
+            color: rgb(60, 127, 169);
+            text-decoration: none;
+            margin-left: 110px;
+            font-family: Arial;
+            margin-top: 20px;
+            font-size: 13px;
+            margin-bottom: 50px;
+        }
+        
+        .title1_macbook {
+            font-family: Arial;
+            color: rgb(237, 120, 18);
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 200px;
+            margin-bottom: 3px;
+        
+        }
+        .title2_macbook {
+            font-family: Arial;
+            font-size: 17px;
+            font-weight: bold;
+            margin-left:158px ;
+            margin-bottom: 0px;
+        
+        }
+        .title3_macbook {
+            font-family: Arial;
+            font-size: 28px;
+            font-weight: bolder; 
+            margin-left: 58px;
+            margin-bottom: 8px;
+        
+        }
+        .price_macbook {
+            margin-left:175px;
+            font-family: Arial;
+            font-size: 14px;
+            margin-bottom:8px;
+        }
+        .buyButton_macbook {
+            margin-left: 300px;
+            background-color: rgb(22, 104, 219) ;
+            color: white;
+            border-radius: 30px;
+            border: none;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            font-family: Arial;
+            font-size: 11px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 40px;
+        }
+        
+        .stock_price {
+            font-family: Arial;
+            font-weight: 500;
+            font-size: 22px;
+            height: 23px; 
+            margin-bottom: 5px;
+           
+        }
+        .stock_currency {
+            color: gray;
+            font-size: 12px;
+            font-family: Arial;
+        }
+        .stock_growth {
+            color: green;
+            font-size: 10px;
+            font-family: Arial;
+            margin-bottom: 3px;
+        }
+        .stock_stats {
+           color: gray;
+           font-size: 9px;
+           font-family: Arial;
+           margin-bottom: 40px;
+           
+           
+           }
+         .stats_percentage {
+            color: rgb(171, 34, 34);
+            font-size: 9px;
+           font-family: Arial;
+        }
+        
+        .mail_senderName {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .mail_senderName_1 {
+            color: gray;
+            font-weight: lighter;
+            font-family: Arial;
+        }
+        .mail_content {
+            width: 550px;
+            font-family: Arial;
+            margin-bottom: 10px;
+        }
+        .mail_content_2 {
+            
+            font-family: Arial;     
+        }
+        .mail_content_2_1 {
+            color:rgb(108, 170, 237) ;
+        }

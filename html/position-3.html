@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      .box {
+        height: 180px;
+        width: 320px;
+        background-color: lightgray;
+        position: fixed;
+        bottom: 0px;
+        right: 0;
+      }
+
+      .close-button {
+        display: flex;
+        font-family: arial;
+        background-color: black;
+        color: white;
+        height: 30px;
+        width: 28px;
+        position: absolute;
+        top: -5px;
+        left: -8px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 80%;
+      }
+      .close-button:active {
+        color: gray;
+      }
+      .close-button:hover {
+        cursor: pointer;
+      }
+      .ad-time {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: black;
+        color: white;
+        padding: 4px;
+      }
+
+      .dress-image {
+        height: 250px;
+        width: 250px;
+        display: inline-block;
+      }
+      .dress-preview {
+        position: relative;
+        display: inline-block;
+      }
+      .discount-bar {
+        position: absolute;
+        top: 7px;
+        right: 0px;
+        background-color: black;
+        color: white;
+        font-size: 12px;
+        padding: 5px;
+        font: arial;
+        font-weight: 450;
+      }
+      
+      .product-image {
+        height: 250px;
+        width: 250px;
+      }
+      .product-cointainer {
+        position: relative;
+        display: inline-block;
+        margin-left: 20px;
+      }
+      .foreground {
+        position: absolute;
+        background-color: rgba(255,255,255,0.85);
+        bottom: 0px;
+        right: 0;
+        left: 0;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+                
+
+      }
+      .addToCart-button{
+        background-color: rgb(243, 236, 236);
+        color: black;
+        border: solid 1px black;
+        height: 28px;
+        width: 80px;
+        font-family: helvetica;
+        }
+     
+      
+      
+    </style>
+  </head>
+  <body>
+    <div class="dress-preview">
+      <img class="dress-image" src="/pictures/t-shirt.png" alt="" />
+      <div class="discount-bar">30 % &ThinSpace;Off &ThinSpace;</div>
+    </div>
+
+    <div class="product-cointainer">
+        <img class="product-image" src="/pictures/t-shirt.png" alt="">
+        <div class="foreground">
+          <button class="addToCart-button">
+            Add to Cart
+          </button>
+        </div>
+        <div class="discount-bar">30 % &ThinSpace;Off &ThinSpace;</div>
+
+    
+
+    <div class="box">
+      <div class="close-button">X</div>
+      <div class="ad-time">0:45</div>
+    </div>
+  </body>
+</html>
