@@ -33,7 +33,7 @@ This repository contains topic-wise HTML and CSS code that I practiced while i l
 
 ---
 
-> 💬 Feel free to explore the code, share feedback, or connect with me on [LinkedIn](www.linkedin.com/in/hirthickroshan)
+> 💬 Feel free to explore the code, share feedback, or connect with me on : 📧 (hirthickroshangk@gmail.com) 🔗 (www.linkedin.com/in/hirthickroshan)
 
 
 
